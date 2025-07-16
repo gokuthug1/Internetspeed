@@ -1,2 +1,2 @@
 s=''.join([chr(i & 0xFF) for i in xrange(1024*1024*150)])
-open('100mb.bin', 'wb').write(s)
+open('150mb.bin', 'wb').write(s)
